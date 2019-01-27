@@ -1,0 +1,29 @@
+<html>
+
+<body>
+
+<div>
+
+    <h1>News</h1>
+
+    <!-- <button (click)="getUserData()">GetContactsData</button>    -->
+    <!-- {{ msg  | json}} <br><br> -->
+
+    <!-- <button (click)="postUserData()">postStudentsData</button> -->
+
+
+
+<table>
+        <!-- *ngFor="let hero of heroes"      -->
+        <tr *ngIf="article.length==0"><td>No Products Available</td></tr>
+        <tr *ngFor="let artic of article" ><td>{{artic.title}}</td> </tr>
+</table>
+
+
+<p>{{result}}</p> 
+   
+</div>
+
+</body>
+
+</html>
